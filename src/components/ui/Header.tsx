@@ -50,7 +50,7 @@ export function Header() {
           <div className="flex items-center gap-4">
             <LanguageSwitcher />
             <a
-              href="https://github.com/remlviewer-developer/reml-viewer"
+              href="https://github.com/nomlviewer-developer/reml-viewer"
               target="_blank"
               rel="noopener noreferrer"
               className="text-zinc-500 hover:text-zinc-700 dark:text-zinc-400 dark:hover:text-zinc-200"

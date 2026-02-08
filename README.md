@@ -27,7 +27,7 @@ REML is a YAML-based schema definition format for relational databases. REMLView
 
 ```bash
 # Clone the repository
-git clone https://github.com/remlviewer-developer/reml-viewer.git
+git clone https://github.com/nomlviewer-developer/reml-viewer.git
 cd reml-viewer
 
 # Install dependencies
@@ -140,7 +140,7 @@ REMLはリレーショナルデータベース向けのYAMLベースのスキー
 
 ```bash
 # リポジトリをクローン
-git clone https://github.com/remlviewer-developer/reml-viewer.git
+git clone https://github.com/nomlviewer-developer/reml-viewer.git
 cd reml-viewer
 
 # 依存関係をインストール

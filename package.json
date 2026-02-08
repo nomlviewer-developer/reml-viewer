@@ -4,13 +4,13 @@
   "description": "REML (Relational Entity Modeling Language) schema viewer — visualize RDB structures with ER diagrams and export to SQL/Excel/PDF/SVG/PNG",
   "license": "Apache-2.0",
   "author": "REMLViewer Contributors",
-  "homepage": "https://github.com/remlviewer-developer/reml-viewer#readme",
+  "homepage": "https://github.com/nomlviewer-developer/reml-viewer#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/remlviewer-developer/reml-viewer.git"
+    "url": "git+https://github.com/nomlviewer-developer/reml-viewer.git"
   },
   "bugs": {
-    "url": "https://github.com/remlviewer-developer/reml-viewer/issues"
+    "url": "https://github.com/nomlviewer-developer/reml-viewer/issues"
   },
   "keywords": [
     "reml",
