@@ -1,0 +1,55 @@
+{
+  "name": "reml-viewer",
+  "version": "0.1.0",
+  "description": "REML (Relational Entity Modeling Language) schema viewer — visualize RDB structures with ER diagrams and export to SQL/Excel/PDF/SVG/PNG",
+  "license": "Apache-2.0",
+  "author": "REMLViewer Contributors",
+  "homepage": "https://github.com/remlviewer-developer/reml-viewer#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remlviewer-developer/reml-viewer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/remlviewer-developer/reml-viewer/issues"
+  },
+  "keywords": [
+    "reml",
+    "database",
+    "schema",
+    "er-diagram",
+    "sql",
+    "ddl",
+    "visualization",
+    "rdb",
+    "yaml"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "js-yaml": "^4.1.1",
+    "jspdf": "^4.1.0",
+    "next": "16.1.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.6",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.8.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
