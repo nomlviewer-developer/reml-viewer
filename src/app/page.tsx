@@ -664,7 +664,7 @@ export default function Home() {
                 )}
               </button>
             </div>
-            {schema ? (
+            {schema && validation?.valid ? (
               <SchemaViewer schema={schema} />
             ) : (
               <div className="flex items-center justify-center h-64 bg-white dark:bg-zinc-800 rounded-lg border-2 border-dashed border-zinc-200 dark:border-zinc-700">

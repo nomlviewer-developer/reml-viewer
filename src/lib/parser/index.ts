@@ -18,8 +18,11 @@ export function parseReml(yamlString: string): {
   error: string | null;
 } {
   try {
-    const parsed = yaml.load(yamlString) as RemlSchema;
-    return { schema: parsed, error: null };
+    const parsed = yaml.load(yamlString);
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) {
+      return { schema: null, error: 'Invalid REML: expected a YAML mapping (object)' };
+    }
+    return { schema: parsed as RemlSchema, error: null };
   } catch (e) {
     const error = e instanceof Error ? e.message : 'Unknown parsing error';
     return { schema: null, error };
