@@ -12,6 +12,7 @@ export function Header() {
 
   const navItems = [
     { href: '/', label: t('Viewer', 'ビューアー') },
+    { href: '/spec', label: t('Spec', '仕様書') },
     { href: '/about', label: t('About', '使い方') },
   ];
 
